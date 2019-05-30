@@ -1,4 +1,4 @@
-﻿/*
+/*
   STYLES GUIDE:
   0. RESET
   1. LAYOUT
@@ -21,10 +21,15 @@
    License: none (public domain)
 */
 
+div{
+    align-content:center;
+    align-self:center;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, em, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -41,6 +46,8 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -190,6 +197,61 @@ p {
         width: 100%;
     }
 
+
+
+    #outerbox{
+        width:1600px;
+        overflow:hidden;
+        align-content:center;
+    }
+
+    #sliderbox{
+        position:relative;
+        align-content:center;
+        width:6400px;
+        animation-name:Jamal;
+        animation-duration:20s;
+        animation-iteration-count:infinite;
+    }
+    #sliderbox img{
+        float:left;
+    }
+
+@keyframes Jamal {
+    0% {
+        left: 0px;
+    }
+
+    20% {
+        left: 0px;
+    }
+
+    25% {
+        left: -1600px;
+    }
+
+    45% {
+        left: -1600px;
+    }
+
+    50% {
+        left: -3200px;
+    }
+
+    70%{
+        left: -3200px;
+    }
+    75%{
+        left: -4800px;
+    }
+    95%{
+        left: -4800px;
+    }
+    100%{
+        left: -6400px;
+    }
+ }
+
 /* 3 LIST  */
 
 .list-developers figure {
@@ -225,4 +287,3 @@ p {
     right: 0;
     bottom: -40px;
 }
-
