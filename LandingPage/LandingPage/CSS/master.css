@@ -149,7 +149,7 @@ p {
     padding: 10px 40px;
     display: inline-block;
     text-decoration: none;
-    color: #fff;
+    color: #000000;
 }
 
 /* 3 PARTS OF WEB */
@@ -200,7 +200,7 @@ p {
 
 
     #outerbox{
-        width:1600px;
+        width:1500px;
         overflow:hidden;
         align-content:center;
     }
@@ -208,7 +208,7 @@ p {
     #sliderbox{
         position:relative;
         align-content:center;
-        width:6400px;
+        width:6000px;
         animation-name:Jamal;
         animation-duration:20s;
         animation-iteration-count:infinite;
@@ -227,28 +227,28 @@ p {
     }
 
     25% {
-        left: -1600px;
+        left: -1500px;
     }
 
     45% {
-        left: -1600px;
+        left: -1500px;
     }
 
     50% {
-        left: -3200px;
+        left: -3000px;
     }
 
     70%{
-        left: -3200px;
+        left: -3000px;
     }
     75%{
-        left: -4800px;
+        left: -4500px;
     }
     95%{
-        left: -4800px;
+        left: -4500px;
     }
     100%{
-        left: -6400px;
+        left: -6000px;
     }
  }
 

@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{2EF37F9D-AE08-4595-996C-1375AA10A4EE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LandingPage/Landing_page.html">
+    <Files>
+      <File FileName="LandingPage/Landing_page.html" Line="11" Column="1" />
+      <File FileName="LandingPage/CSS/master.css" Line="208" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LandingPage" expanded="True">
+            <Node name="LandingPage" expanded="True">
+              <Node name="CSS" expanded="True" />
+              <Node name="Landing_page.html" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LandingPage PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
